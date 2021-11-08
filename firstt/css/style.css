@@ -1,0 +1,76 @@
+header{
+    background-color: white;
+    display: block;
+    z-index: 100;
+    position: sticky;
+    
+}
+header ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    
+}
+header ul li {
+    padding: 10px;
+ 
+}
+
+header ul li a{
+    color: slategrey;
+    text-decoration: none;   
+}
+
+.firstsection{
+    display: flex;
+    justify-content: center;
+}
+.firstsection div{
+    padding:100px
+}
+.imgs img{
+    width:350px;
+    height:350px;
+    max-width:100%;
+}
+.secondsection{
+
+    text-align: center;
+}
+.thirdsection .msgme{
+    display: flex;
+    justify-content: space-around;
+
+}
+.thirdsection .msgme .left_form{
+    min-width: 400px;
+}
+#contact-form div input,textarea{
+    min-width: 350px;
+    padding: 3px;
+    margin: 5px;
+}
+.thirdsection .msgme .right_messages ul{
+
+    list-style: none;
+}
+.thirdsection .msgme .right_messages ul li span{
+    font: bold;
+    font-size: 20px;
+    font-weight: 700;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer .icons ul{
+    display: flex;
+    list-style: none;
+
+}
+footer .icons ul li img{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
